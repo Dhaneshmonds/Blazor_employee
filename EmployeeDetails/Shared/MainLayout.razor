@@ -1,0 +1,45 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>EmployeeManagement</PageTitle>
+
+<div class="page">
+
+    <header>
+        <img src="/Image/CompanyLogo.png" style="background-color: white;" alt="Company Logo" width="300" height="80" class="company-logo" />
+       
+
+        <div class="header-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+        </div>
+    </header>
+    <div class="content">
+        <nav class="navbar">
+            <button>☰</button>
+           
+            <ul >
+                <li><NavLink href="">Home</NavLink></li>
+                <li><NavLink href="page1">Page 1</NavLink></li>
+                <li><NavLink href="page2">Page 2</NavLink></li>
+            </ul>
+        </nav>
+        <main>
+            @Body
+        </main>
+    </div>
+
+    @*<div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>*@
+</div>
